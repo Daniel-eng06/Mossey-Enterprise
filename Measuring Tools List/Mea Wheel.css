@@ -1,0 +1,11 @@
+.mabody1{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    font-family: Roboto,sans-serif;
+    margin-left: -45.2%;
+}
+
+.mabody1 #act1{
+    color: steelblue;
+}

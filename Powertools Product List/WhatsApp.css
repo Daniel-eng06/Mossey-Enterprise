@@ -1,0 +1,54 @@
+.chatbut{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    padding: 2% 5% 0 1%;
+    font-size: 16px;
+    background-color: white;
+    font-family: sans-serif;
+    color: #043c6c;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 2px solid #09599b;
+}
+
+.chatbut:hover{
+    color: #043c6c;
+    background-color: orange;
+    transition-property: background-color;
+    transform: scale(0.97);
+}
+
+#chatbut{
+    width: 35px;
+    height: 32px;
+}
+#chatbut img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+@media all and (max-width: 430px) {
+            .chatbut{
+                width: 90%;
+                padding: 1% 0% 1% -5px;
+                font-size: 8px;
+                border-radius: 2.5px;
+                border: 1px solid #09599b;
+            }
+
+            .chatbut:hover{
+
+                transform: scale(0.97);
+            }
+
+            #chatbut{
+                width: 18px;
+                height: 18px;
+            }
+
+}

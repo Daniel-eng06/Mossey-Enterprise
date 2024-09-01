@@ -1,0 +1,564 @@
+.slidedek{
+    position: static;
+    margin-top: 170px;
+}
+
+.desktop img{
+   width: 100%;
+}
+
+.who{
+    color: white;
+    text-decoration: none;
+    text-align: left;
+    padding: 130px 15% 15% 60px;
+    width: 100%;
+    position: absolute;
+}
+
+.who #who1,span{
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 3.0rem;
+    font-family: sans-serif;
+    word-spacing: -5px;
+    letter-spacing: -1px;
+}
+
+.who #newp{
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.who #cus{
+    color: transparent;
+    font-weight: 800;
+    font-size: 3.5rem;
+    background-image: url('../../../public/kente.png');
+    background-size: cover;
+    background-clip: content-box;
+    -webkit-background-clip: text;
+}
+
+.who span{
+    text-align: center;
+
+}
+
+p.author{
+     font-size: 15px;
+     font-family: Roboto,sans-serif;
+}
+
+
+#discover{
+    width: 150px;
+    height: 18px;
+    background-color: white;
+    color: black;
+    padding: 22px;
+    font-family: Roboto,sans-serif;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    position: absolute;
+}
+
+#discover:hover{
+    border: 2px solid royalblue;
+    color: #043c6c;
+}
+
+.brandlogo {
+    height: 90px;
+    background-color: whitesmoke;
+    position: relative;
+}
+.brandlogo ul{
+    padding-top: 8px;
+}
+
+.brands{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+    margin-top:-5px ;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+    align-content: space-evenly;
+    padding-left: 30px;
+}
+
+li{
+    list-style: none;
+}
+
+.brad{
+     width: 80%;
+}
+
+.range{
+    text-align: center;
+    text-decoration: none;
+    padding: 80px 0px 50px 0px;
+    color: #043c6c;
+    font-weight: 800;
+    font-size: 2.7rem;
+    font-family: sans-serif;
+    word-spacing: -5px;
+    letter-spacing: -2px;
+}
+
+.Category{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(4,22%);
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    flex-wrap: wrap;
+}
+
+.Powertools img,
+.accessories img,
+.measuringtools img,
+.Service img{
+     width: 100%;
+     height: 11rem;
+}
+
+.Category p a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #043c6c;
+    font-size: 1.4rem;
+    font-weight: bold;
+
+}
+
+p{
+    padding-top: 10px;
+}
+
+.Category p a:hover{
+    color: steelblue;
+}
+
+.news{
+    width: 100%;
+}
+
+.news #guide{
+    text-decoration: none;
+    text-align: center;
+    color: #043c6c;
+    padding: 80px 0px 60px 0px;
+    font-size: 2.5rem;
+    font-weight: 800;
+    font-family: sans-serif;
+    word-spacing: -3px;
+    letter-spacing: -2px;
+}
+
+.allpic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    background-color: whitesmoke;
+    flex-direction: column;
+}
+
+.news .diy {
+    background-color:whitesmoke;
+    position: relative;
+}
+
+.news .diy .curious1{
+    position: absolute;
+    top: 20%;
+    padding: 0% 0% 0% 40%;
+    margin-left: 15%;
+}
+
+.curious1 h2{
+    text-align: left;
+    font-size: 2em;
+    font-weight: 800;
+    font-family: sans-serif;
+}
+
+.curious1 a {
+    margin-right: 80%;
+    border: 1px solid black;
+    width: 180px;
+    height: 50px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+    background-color: white;
+}
+
+.curious1 a:hover{
+    border: 2px solid royalblue;
+    color: #043c6c;
+    transition-property: background-color;
+    transform: scale(0.95);
+}
+
+.news .diy img ,.opp img{
+    width: 50%;
+}
+
+.opp img{
+    position: relative;
+    left: 25%;
+    margin-top: -5px;
+}
+
+.news .opp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color:whitesmoke;
+}
+
+.news .opp .curious2{
+    position: absolute;
+    top: 20%;
+    padding: 0 40% 0 0;
+    margin-left: 5%;
+    margin-right: 16%;
+
+}
+
+.curious2 h2{
+    text-align: left;
+    font-size: 2em;
+    font-weight: 800;
+    font-family: sans-serif;
+}
+
+.curious2 a {
+    margin-right: 80%;
+    border: 1px solid black;
+    width: 180px;
+    height: 50px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+    background-color: white;
+    margin-top: -1%;
+}
+
+.curious2 a:hover{
+    border: 2px solid royalblue;
+    color: #043c6c;
+    transition-property: background-color;
+    transform: scale(0.95);
+}
+
+.map{
+    position: relative;
+}
+
+.map h2{
+    text-decoration: none;
+    text-align: center;
+    color: #043c6c;
+    padding: 70px 0px 50px 0px;
+    font-size: 2.5rem;
+    font-weight: 800;
+    font-family: sans-serif;
+    word-spacing: -3px;
+    letter-spacing: -2px;
+}
+
+.locate img{
+    width: 50%;
+    height: 400px;
+}
+
+.locate{
+    background-color: whitesmoke;
+    opacity: 80%;
+}
+
+.text {
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    justify-content: start;
+    align-items: start;
+    position: absolute;
+    top: 48%;
+    padding-left: 55%;
+}
+
+.spots{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.spots #loc ,#loc1,#loc2{
+    width: 40px;
+    height: 40px;
+    margin: 15px;
+}
+
+.spots #loc{
+    margin-left: -5%;
+}
+
+.spots #loc1{
+    margin-left: -5%;
+}
+
+.spots .tx{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.spots .tx a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.spots .tx a:hover{
+    border-bottom: 1px solid royalblue ;
+    color: steelblue;
+    transition-property: background-color;
+    transform: scale(0.95);
+}
+
+
+
+
+/* Original styles for desktop */
+
+/* Media query for iPhone 14 Pro Max or similar-sized phones */
+@media all and (max-width:clamp(430px,450px,400px)) {
+  .slidedek{
+    position: static;
+    margin-top: 85px;
+    }
+
+  .desktop img {
+    width: 100%;
+  }
+
+  .who {
+    padding: 25px 10% 5% 20px; /* Adjust padding for smaller screens */
+  }
+
+  .who #who1,
+  .who span {
+    font-size: 1.2rem;
+      word-spacing: 0.5px;
+      letter-spacing: 0.1px;
+  }
+
+  .who div{
+      margin-top: -15px;
+      margin-bottom: -25px;
+  }
+
+  .who #newp{
+    font-size: 0.5rem;
+      line-height: 0.6;
+      font-weight: 500;
+  }
+
+  .who #cus {
+    font-size: 1.4rem; /* Adjust font size for smaller screens */
+  }
+
+  #discover {
+    width: 60px; /* Adjust button width for smaller screens */
+    padding: 0px 0px 0px;
+      font-size: 0.45rem;
+      margin-top: 5px ;
+      font-weight: 500;
+  }
+
+    #discover:hover{
+    border: 1px solid royalblue;
+    color: #043c6c;
+   }
+
+  .who div .author{
+      margin-top: -29%;
+      font-size: 0.4rem;
+  }
+
+
+  .brandlogo {
+    height: 35px; /* Adjust logo height for smaller screens */
+  }
+
+  .brands {
+    grid-template-columns: repeat(9,1fr); /* Adjust the number of columns for smaller screens */
+      padding-right: 30px;
+      column-gap: 2%;
+
+  }
+
+  .brad {
+    width: 100%; /* Adjust width for smaller screens */
+  }
+
+  .range {
+      padding: 20px 20px 20px ; /* Adjust padding for smaller screens */
+      font-size: 1.2rem;
+      word-spacing: 0.1px;
+      letter-spacing: 0.1px;
+  }
+
+  .Category {
+    grid-template-columns: repeat(2,1fr); /* Adjust the number of columns and width for smaller screens */
+  }
+
+  .Powertools img,
+  .accessories img,
+  .measuringtools img,
+  .Service img {
+    height: auto;
+      width: 80%;
+      margin-left: 10%;
+  }
+
+   .Category p{
+       margin-top: -5%;
+       margin-bottom:3%;
+
+   }
+
+  .Category p a {
+    font-size: 0.75rem;
+     margin-left: 10%;
+      font-family: sans-serif ;
+      font-weight: 700;
+  }
+
+    .news #guide {
+        font-size: 1.2rem;
+        letter-spacing: 0.1px;
+        padding: 40px 0 20px;
+    }
+
+    .news .curious1 {
+        padding: 1% 50px; /* Adjust padding */
+    }
+        /*padding: 2% 35% 0 0%;*/
+
+
+    .curious1 h2 {
+        font-size: 0.75em; /* Adjust font size */
+         margin-top: -8%;
+    }
+
+    .curious1 a {
+        margin-right: 61%; /* Adjust margin */
+        width: 75px; /* Adjust width */
+        height: 20px; /* Adjust height */
+        padding: 2px;
+        font-size: 8px; /* Adjust font size */
+        margin-top: -15%;
+    }
+
+    .news .diy img, .opp img {
+        width: 50%; /* Adjust width */
+    }
+
+    .opp img {
+        left: 25%; /* Adjust position */
+        margin-top: -1%;
+    }
+
+    .news .opp .curious2 {
+        padding: 2% 38% 0 5%; /* Adjust padding */
+        margin-left: -1%;
+    }
+    /*!*padding: 0 40% 0 0;*!*/
+    /*margin-left: 5%;*/
+    /*margin-right: 16%;*/
+
+    .curious2 h2 {
+       font-size: 0.75em; /* Adjust font size */
+         margin-top: -15%;
+        margin-left: 1%;
+
+    }
+
+    .curious2 a {
+       /* Adjust margin */
+        width: 75px; /* Adjust width */
+        height: 20px; /* Adjust height */
+        padding: 2px; /* Adjust padding */
+        font-size: 8px; /* Adjust font size */
+        margin-top: -16%;
+        margin-left: 1%;
+    }
+    .map{
+        padding-top:10px ;
+    }
+
+    .map h2 {
+         font-size: 1.2rem;
+        letter-spacing: 0.1px;
+        padding: 30px 10px 20px; /* Adjust padding */
+    }
+
+    .locate img {
+        width: 50%; /* Adjust width */
+        height: 150px; /* Adjust height */
+        max-height: 150px; /* Adjust max-height */
+    }
+
+    .text {
+        padding-left: 50%; /* Adjust padding */
+        padding-right: 2%;
+    }
+
+    .spots {
+        flex-direction: column; /* Adjust flex direction */
+        align-items: flex-start; /* Adjust alignment */
+    }
+
+    .spots #loc,
+    .spots #loc1,
+    .spots #loc2 {
+        width: 15px; /* Adjust width */
+        height: 15px; /* Adjust height */
+        margin: 10px; /* Adjust margin */
+    }
+
+    .spots #loc,
+    .spots #loc1 {
+        margin-left: 10px; /* Adjust margin */
+    }
+
+    .spots .tx a {
+        font-size: 10px; /* Adjust font size */
+    }
+
+}

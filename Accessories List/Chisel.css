@@ -1,0 +1,202 @@
+.chipage{
+    height: 1720px;
+    margin-top: 180px;
+}
+
+
+
+@media all and (max-width: 430px) {
+    .chipage {
+        height: 1200px;
+        margin-top: 85px;
+    }
+
+    .chipage .drbody {
+        margin-left: -48%;
+    }
+
+    .chipage #act {
+        font-size: 7px;
+    }
+
+    .chipage #act1 {
+        font-size: 7px;
+    }
+
+    .chipage .drbody #act1 {
+        color: steelblue;
+    }
+
+    .chipage .caution {
+        margin: 3% 20%;
+        height: 5.7rem;
+        width: 100%;
+    }
+
+    .chipage .caution:hover {
+        transform: scale(1.1);
+    }
+
+    .chipage .cauimg {
+        width: 50px;
+        height: 45px;
+        margin-left: 5%;
+    }
+
+    .chipage .cautext {
+        width: 80%;
+        height: auto;
+        margin-left: 5%;
+        margin-top: -2%;
+    }
+
+    .chipage #cautext {
+        font-family: Roboto, sans-serif;
+        font-weight: 800;
+        font-size: 14px;
+    }
+
+    .chipage #cautext1 {
+        font-size: 10px;
+        letter-spacing: 0.1px;
+          width: 300px;
+    }
+
+    .chipage #spantex {
+        font-family: Roboto, sans-serif;
+        font-size: 11px;
+        font-weight: 400;
+        word-spacing: 1px;
+        color: #043c6c;
+        letter-spacing: 0.1px;
+    }
+
+    .chipage #spatex {
+        font-family: Roboto, sans-serif;
+        font-weight: 800;
+        font-size: 14px;
+        word-spacing: 1px;
+        letter-spacing: 0.1px;
+        color: #043c6c;
+    }
+
+    .chipage .groupdr {
+        display: grid;
+        grid-template-rows: 1fr;
+        row-gap: 2%;
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-right: -140px;
+    }
+
+    .chipage #indivdr {
+        background-color: whitesmoke;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        padding: 0;
+        margin: 0;
+    }
+
+    .chipage .maindr, .fundr, .prodr {
+        margin: 1% 0;
+    }
+
+
+    .chipage .maindr {
+        width: 140px;
+        height: 150px;
+        margin-left: 15%;
+        margin-top: 35px;
+    }
+
+    .chipage .fundr #mat {
+        font-size: 11px;
+    }
+
+    .chipage .fundr {
+        margin-top: 10%;
+        gap: 1%;
+        margin-left: 35%;
+    }
+
+    .chipage #fundr {
+        width: 45px;
+        height: 45px;
+    }
+
+    .chipage .prodr {
+        margin-left: 10%;
+        margin-right: -100px;
+        margin-top: 18px;
+    }
+
+    .chipage #prodr {
+        font-size: 8px;
+        line-height: 1.7;
+    }
+
+    .chipage #availdr li {
+        margin-top: -1%;
+    }
+
+    .chipage #availdr2 li {
+        margin-top: 3%;
+    }
+
+    .chipage #pronadr {
+        font-size: 1rem;
+        color: #09599b;
+        font-weight: 800;
+        font-family: SansSerif, Roboto, sans-serif;
+    }
+
+    .chipage #pronadr1 {
+        display: flex;
+        font-size: 9px;
+        color: royalblue;
+    }
+
+    .chipage #price1 {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .chipage #stock1, #quali1, #availn a {
+        font-size: 8px;
+    }
+
+    .chipage #availn {
+        margin-top: 8px;
+        margin-right: -20%;
+        border-bottom: 0;
+    }
+
+    .chipage #quala {
+        width: 50px;
+        height: 65px;
+        margin-top: -38px;
+        margin-bottom: -40px;
+        margin-left: 25px;
+    }
+
+
+    .chipage .chat1 {
+       margin-top: 0;
+        margin-left: 120px;
+        margin-right: -100px;
+    }
+
+    .chipage .QR, .scan1 {
+        margin-top: -9%;
+    }
+
+    .chipage #scan1, .scan1 {
+        font-size: 10px;
+    }
+
+    .chipage.QR {
+        width: 90px;
+        height: 90px;
+    }
+
+}
