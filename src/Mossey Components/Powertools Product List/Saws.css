@@ -1,0 +1,223 @@
+.cpage10{
+    height: 580px;
+    margin-top: 180px;
+}
+
+.sawbody1{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    font-family: Roboto,sans-serif;
+    margin-left: -48.5%;
+}
+
+.sawbody1 #act1{
+    color: steelblue;
+}
+
+
+
+
+
+@media all and (max-width: 430px) {
+        .cpage10{
+            height: 430px;
+            margin-top: 85px;
+        }
+
+        .cpage10 .sawbody1{
+            margin-left: -48%;
+        }
+
+        .cpage10 #act{
+            font-size: 7px;
+        }
+
+         #act a{
+            font-size: 7px;
+            color: black;
+        }
+
+        .cpage10 #act1{
+            font-size: 7px;
+        }
+        .cpage10 .sawbody1 #act1{
+            color: steelblue;
+        }
+
+        .cpage10 .caution{
+            margin: 3% 8% ;
+            height: 5.7rem;
+            width: 100%;
+        }
+
+        .cpage10 .caution:hover{
+            transform: scale(1.1);
+        }
+
+        .cpage10 .cauimg{
+            width: 50px;
+            height: 45px;
+             margin-left: 5%;
+        }
+
+        .cpage10 .cautext {
+            width: 80%;
+            height: auto;
+            margin-left: 5%;
+            margin-top: -2%;
+        }
+
+        .cpage10 #cautext{
+            font-family: Roboto,sans-serif;
+            font-weight: 800;
+            font-size: 14px;
+        }
+
+        .cpage10 #cautext1{
+            font-size: 10px;
+            letter-spacing: 0.1px;
+            width: 300px;
+        }
+
+        .cpage10 #spantex{
+            font-family: Roboto,sans-serif;
+            font-size: 11px;
+            font-weight: 400;
+            word-spacing: 1px;
+            color: #043c6c;
+            letter-spacing: 0.1px;
+        }
+
+       .cpage10 #spatex{
+            font-family: Roboto,sans-serif;
+            font-weight: 800;
+            font-size: 14px;
+            word-spacing: 1px;
+            letter-spacing: 0.1px;
+            color: #043c6c;
+        }
+
+        .cpage10 .groupdiv{
+            display:grid;
+            grid-template-rows: 1fr;
+            row-gap: 5%;
+            margin-top: 20px;
+        }
+
+        .cpage10 #individual{
+            background-color: whitesmoke;
+            display: grid;
+            grid-template-columns: repeat(5,1fr);
+            padding: 0;
+            margin: 0;
+        }
+
+        .cpage10 .mainimg ,.funimg,.prodes{
+            margin: 5% 0;
+        }
+
+        .cpage10 .subimg{
+            display: flex;
+            flex-direction: column;
+            gap: 1%;
+            margin-top: 12%;
+            margin-left: 25%;
+        }
+
+        .cpage10 #subimg{
+            width: 45px;
+            height: 45px;
+        }
+
+        .cpage10 .mainimg{
+            width: 120px;
+            height: 140px;
+            margin-left: 15%;
+        }
+
+        .cpage10 .funimg{
+            margin-top: 12%;
+            gap: 1%;
+            margin-left: 55%;
+        }
+
+        .cpage10 #funimg{
+            width: 45px;
+            height: 45px;
+        }
+
+        .cpage10 .prodes{
+            margin-left: 30%;
+            margin-right: -60%;
+        }
+
+        .cpage10 #prodes{
+            font-size: 8px;
+            line-height: 1.7;
+        }
+
+        .cpage10 #avail1 li{
+            margin-top: -1%;
+        }
+
+        .cpage10 #avail2 li{
+            margin-top: 3%;
+        }
+
+        .cpage10 #proname{
+            font-size: 1rem;
+            color: #09599b;
+            font-weight: 800;
+            font-family: SansSerif,Roboto,sans-serif;
+        }
+        .cpage10 #proname1{
+            display: flex;
+            font-size: 9px;
+            color: royalblue;
+        }
+
+        .cpage10 #price{
+            font-size: 12px;
+            font-weight: 500;
+        }
+        .cpage10 #stock, #quali, #avail a{
+            font-size: 8px;
+        }
+
+        .cpage10 #avail {
+            margin-top: 10px;
+            margin-right: -50%;
+            border-bottom: 0;
+        }
+
+        .cpage10 #qual{
+            width: 50px;
+            height: 65px;
+            margin-top: -38px;
+            margin-bottom: -40px;
+            margin-left: 25px;
+        }
+
+        .cpage10 .chat{
+            margin-top: 0;
+        }
+
+        .cpage10 .QR,.scan{
+            margin-top: -9%;
+        }
+
+        #scan, .scan{
+            font-size: 10px;
+        }
+
+        .chat{
+            margin-left: 80px;
+        }
+
+        .QR{
+            width: 90px;
+            height: 90px;
+        }
+
+}

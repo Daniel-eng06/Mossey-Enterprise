@@ -1,0 +1,466 @@
+.cpage{
+    height: 960px;
+    margin-top: 180px;
+}
+
+.pbody{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    font-family: Roboto,sans-serif;
+    margin-left: -46.5%;
+}
+#act a{
+    font-size: 13px;
+    color: black;
+}
+
+#act{
+    font-family: sans-serif;
+    font-size: 13px;
+    display: flex;
+    font-weight: lighter;
+    gap:1px;
+}
+
+#act1{
+    font-family: sans-serif;
+    font-size: 13px;
+    display: flex;
+    font-weight: lighter;
+    gap:1px;
+    word-spacing: 1px;
+    letter-spacing: 0.1px;
+}
+.pbody #act1{
+    color: steelblue;
+}
+
+.caution{
+    background-color: orange;
+    height: 7.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 12px rgba(248, 143, 3, 1);
+    padding: 20px 0;
+    color: black;
+}
+
+.caution:hover{
+    transform: scale(1.1);
+}
+
+.cauimg{
+    width: 70px;
+    height: 70px;
+}
+
+.cauimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cautext {
+    width: 60%;
+    height: auto;
+    margin-left: -5%;
+    margin-top: -5%;
+}
+
+#cautext{
+    font-family: Roboto,sans-serif;
+    font-weight: 800;
+    font-size: 21px;
+}
+
+#cautext1{
+    width: 450px;
+    font-size: 14px;
+    letter-spacing: 0.1px;
+}
+
+#spantex{
+    font-family: Roboto,sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    word-spacing: 1px;
+    color: #043c6c;
+    letter-spacing: 0.1px;
+}
+
+#spatex{
+    font-family: Roboto,sans-serif;
+    font-weight: 800;
+    font-size: 21px;
+    word-spacing: 1px;
+    letter-spacing: 0.1px;
+    color: #043c6c;
+}
+
+.groupdiv{
+    display:grid;
+    grid-template-rows: 1fr;
+    row-gap: 2%;
+}
+
+#individual{
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    padding: 0;
+    margin: 0;
+}
+
+.mainimg ,.funimg,.prodes{
+    margin: 9% 0;
+}
+
+.subimg{
+    display: flex;
+    flex-direction: column;
+    gap: 1%;
+    margin-top: 10%;
+    margin-left: 25%;
+}
+
+#subimg{
+    width: 90px;
+    height: 90px;
+    background-color: white;
+    border: 2px solid #09599b;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#subimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.mainimg{
+    width: 300px;
+    height: 280px;
+    background-color: white;
+    border: 2px solid #09599b;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: -25%;
+}
+
+.funimg{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: -100%;
+}
+
+#funimg{
+    width: 90px;
+    height: 90px;
+    background-color: white;
+    border: 2px solid #09599b;
+    border-radius: 5px;
+}
+#funimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.prodes{
+    margin-left: -70%;
+}
+
+#prodes{
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+#avail1 li{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin-top: -1%;
+}
+
+#avail2 li{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin-top: 3%;
+}
+
+#proname{
+    font-size: 2rem;
+    color: #09599b;
+    font-weight: 800;
+    font-family: SansSerif,Roboto,sans-serif;
+}
+#proname1{
+    display: flex;
+    font-size: 18px;
+    color: royalblue;
+}
+
+#price{
+    font-size: 18px;
+    font-weight: 500;
+}
+#stock,#quali, #avail{
+    font-size: 15px;
+}
+
+#stock{
+    color: green;
+}
+
+#avail {
+    margin-right: 0px;
+}
+#avail a{
+    color: black;
+    border-bottom: 1px solid #003cff ;
+}
+
+#quali{
+    display: flex;
+    flex-direction: row;
+}
+
+#qual{
+    width: 100px;
+    height: 130px;
+    margin-top: -75px;
+    margin-bottom: -40px;
+    margin-left: 50px;
+}
+
+#qual img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.chat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0;
+}
+
+.QR,.scan{
+    margin-top: -9%;
+}
+
+
+
+@media all and (max-width: 430px) {
+        .cpage{
+            height: 720px;
+            margin-top: 85px;
+        }
+
+        .cpage .pbody{
+            margin-left: -48%;
+        }
+
+        .cpage #act{
+            font-size: 7px;
+        }
+
+        #act a{
+            font-size: 7px;
+            color: black;
+        }
+
+        .cpage #act1{
+            font-size: 7px;
+        }
+        .cpage .pbody #act1{
+            color: steelblue;
+        }
+
+        .cpage .caution{
+            margin: 3% 8% ;
+            height: 5.7rem;
+            width: 100%;
+        }
+
+        .cpage .caution:hover{
+            transform: scale(1.1);
+        }
+
+        .cpage .cauimg{
+            width: 50px;
+            height: 45px;
+             margin-left: 5%;
+        }
+
+        .cpage .cautext {
+            width: 80%;
+            height: auto;
+            margin-left: 5%;
+            margin-top: -2%;
+        }
+
+        .cpage #cautext{
+            font-family: Roboto,sans-serif;
+            font-weight: 800;
+            font-size: 14px;
+        }
+
+        .cpage #cautext1{
+            font-size: 10px;
+            letter-spacing: 0.1px;
+        }
+
+        #cautext1{
+            width: 300px;
+        }
+
+        .cpage #spantex{
+            font-family: Roboto,sans-serif;
+            font-size: 11px;
+            font-weight: 400;
+            word-spacing: 1px;
+            color: #043c6c;
+            letter-spacing: 0.1px;
+        }
+
+       .cpage #spatex{
+            font-family: Roboto,sans-serif;
+            font-weight: 800;
+            font-size: 14px;
+            word-spacing: 1px;
+            letter-spacing: 0.1px;
+            color: #043c6c;
+        }
+
+        .cpage .groupdiv{
+            display:grid;
+            grid-template-rows: 1fr;
+            row-gap: 5%;
+            margin-top: 20px;
+        }
+
+        .cpage #individual{
+            background-color: whitesmoke;
+            display: grid;
+            grid-template-columns: repeat(5,1fr);
+            padding: 0;
+            margin: 0;
+        }
+
+        .cpage .mainimg ,.funimg,.prodes{
+            margin: 5% 0;
+        }
+
+        .cpage .subimg{
+            display: flex;
+            flex-direction: column;
+            gap: 1%;
+            margin-top: 12%;
+            margin-left: 25%;
+        }
+
+        .cpage #subimg{
+            width: 45px;
+            height: 45px;
+        }
+
+        .cpage .mainimg{
+            width: 120px;
+            height: 140px;
+            margin-left: 15%;
+        }
+
+        .cpage .funimg{
+            margin-top: 12%;
+            gap: 1%;
+            margin-left: 55%;
+        }
+
+        .cpage #funimg{
+            width: 45px;
+            height: 45px;
+        }
+
+        .cpage .prodes{
+            margin-left: 30%;
+            margin-right: -60%;
+        }
+
+        .cpage #prodes{
+            font-size: 8px;
+            line-height: 1.7;
+        }
+
+        .cpage #avail1 li{
+            margin-top: -1%;
+        }
+
+        .cpage #avail2 li{
+            margin-top: 3%;
+        }
+
+        .cpage #proname{
+            font-size: 1rem;
+            color: #09599b;
+            font-weight: 800;
+            font-family: SansSerif,Roboto,sans-serif;
+        }
+        .cpage #proname1{
+            display: flex;
+            font-size: 9px;
+            color: royalblue;
+        }
+
+        .cpage #price{
+            font-size: 12px;
+            font-weight: 500;
+        }
+        .cpage #stock, #quali, #avail a{
+            font-size: 8px;
+        }
+
+        .cpage #avail {
+             margin-top: 10px;
+            margin-right: -50%;
+            border-bottom: 0;
+        }
+
+        .cpage #qual{
+            width: 50px;
+            height: 65px;
+            margin-top: -38px;
+            margin-bottom: -40px;
+            margin-left: 25px;
+        }
+
+        .cpage .chat{
+            margin-top: 0;
+        }
+
+        .cpage .QR,.scan{
+            margin-top: -9%;
+        }
+
+        #scan, .scan{
+            font-size: 10px;
+        }
+
+        .chat{
+            margin-left: 80px;
+        }
+
+        .QR{
+            width: 90px;
+            height: 90px;
+        }
+
+}

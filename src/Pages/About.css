@@ -1,0 +1,199 @@
+.about-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  margin-top: 150px;
+}
+
+.about1{
+  height: 250px;
+  width: 1600px;
+  margin-left: -30px;
+  margin-top: 10px;
+  position: relative;
+
+}
+
+.about1 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.float{
+  position: absolute;
+  top: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 13%;
+}
+
+.float a,.float h2{
+  font-size: 70px;
+  color: white;
+  font-weight: 700;
+
+}
+
+.relate p{
+  color:  black;
+  padding: 30px 30px;
+  margin-top: 10px;
+  font-size: 19px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.relate a,.about-section a,.thankyou a{
+  font-size: 19px;
+    color: black;
+}
+
+.relate a:hover{
+    text-decoration: underline;
+}
+.about-section a:hover{
+    text-decoration: underline;
+}
+.thankyou a:hover{
+    text-decoration: underline;
+}
+
+.about-description {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.about-section {
+  margin-bottom: 30px;
+  padding: 0 30px;
+}
+
+.about-section p{
+   font-size: 19px;
+   line-height: 1.5;
+   text-align: justify;
+}
+
+.about-section h3{
+  font-family: Roboto,sans-serif;
+  font-size: 22px;
+  font-weight: 550;
+  color: #043c6c;
+  text-decoration: underline;
+}
+
+.why-choose{
+   margin-bottom: 30px;
+   padding: 0 30px;
+}
+
+.why-choose h3{
+  font-family: Roboto,sans-serif;
+  font-size: 22px;
+  font-weight: 550;
+  color: #043c6c;
+  margin-bottom: 10px;
+}
+
+.why-choose ul {
+  margin-top: 20px;
+   padding: 0 30px;
+}
+
+.why-choose li {
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-decoration: solid;
+  list-style: square;
+}
+
+.thankyou {
+    font-family: Roboto,sans-serif;
+    font-size: 19px;
+    line-height: 1.5;
+    text-align: justify;
+    padding: 0 30px;
+}
+
+@media all and (max-width: 430px) {
+            .about-container {
+              margin-top: 55px;
+            }
+
+            .about1{
+              height: 100px;
+              width: 100%;
+             margin-left: 3px;
+              margin-top: 10px;
+            }
+
+            .float{
+              top: 35%;
+              margin-left: 10%;
+            }
+
+            .float a,.float h2{
+              font-size: 23px;
+            }
+
+            .relate p{
+              color:  black;
+              padding: 10px 10px;
+              margin-top: 10px;
+              font-size: 12px;
+              line-height: 1.8;
+              text-align: justify;
+            }
+
+            .relate a,.about-section a,.thankyou a{
+              font-size: 12px;
+            }
+
+            .about-section {
+              margin-bottom: 5px;
+               padding: 10px 10px;
+            }
+
+            .about-section p{
+               font-size: 12px;
+               line-height: 1.8;
+               text-align: justify;
+            }
+
+            .about-section h3{
+              font-size: 16px;
+            }
+
+            .why-choose{
+               margin-bottom: 5px;
+                padding: 10px 10px;
+            }
+
+            .why-choose h3{
+              font-family: Roboto,sans-serif;
+              font-size: 15px;
+              font-weight: 550;
+              color: #043c6c;
+              margin-bottom: 5px;
+            }
+
+            .why-choose ul {
+              margin-top: 10px;
+             padding: 5px 30px;
+                margin-bottom: -20px;
+            }
+
+            .why-choose li {
+              font-size:10px;
+              margin-bottom: 5px;
+                line-height: 1.8;
+            }
+
+            .thankyou {
+                font-size: 12px;
+                line-height: 1.8;
+                padding: 10px 10px;
+            }
+}

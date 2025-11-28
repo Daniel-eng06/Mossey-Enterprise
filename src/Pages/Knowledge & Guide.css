@@ -1,0 +1,216 @@
+.KGgoods{
+        height: 800px;
+        position: relative;
+        margin-top: 180px;
+}
+
+.KGbody{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: start;
+    padding-left: 5%;
+}
+
+.KGbody a{
+        color: black;
+       font-size: 13px;
+}
+
+.KGbody #active ,#in{
+    font-family: sans-serif;
+    font-size: 13px;
+    padding-left: -50px;
+}
+
+.KGbody #in{
+    padding-right:87%;
+    color: steelblue;
+    font-size: 13px;
+}
+
+.subhead7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.img6{
+    width: 1620px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding-bottom: 2%;
+    margin-top: 1%;
+}
+
+.subhead7 .img6 img{
+    width:  100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#head5{
+    position: absolute;
+    top: 20%;
+    font-family: sans-serif;
+    font-size: 4em;
+    text-align: center;
+    color: white;
+    text-shadow: black;
+    margin-right: 5%;
+    letter-spacing: 3px;
+}
+
+#quality5{
+    position: absolute;
+    top: 65%;
+    text-align: center;
+    color: white;
+    margin-right: 5%;
+}
+
+.Categories5{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(3,300px);
+    grid-template-rows: repeat(3,200px);
+    position: static;
+    top: 10%;
+    column-gap: 10%;
+    row-gap: 5%;
+    margin-top: 120px;
+    margin-left: -20px;
+}
+
+#Categories5{
+    text-decoration: none;
+    list-style: none;
+    width: 350px;
+    height: 370px;
+    box-shadow: 0 2px 4px rgb(28, 80, 180);
+    border-radius: 25px;
+}
+
+#Categories5 .heading{
+    font-size: 14px;
+    color: black;
+    text-align: center;
+    padding: 15px 20px;
+}
+
+.heading h2{
+    font-weight: 550;
+}
+
+.kimg{
+    width: 100%;
+    height: 220px;
+    margin-top: -20px;
+}
+
+.kimg #kimg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+@media all and (max-width: 430px) {
+        .KGgoods{
+            height: 1200px;
+            position: relative;
+            margin-top: 82px;
+        }
+        .KGbody {
+                display: flex;
+                flex-direction: row; /* Adjust layout for smaller screens */
+                align-items: start;
+                padding-left: 0;
+            }
+
+            .KGbody #active, .KGbody #in {
+                font-family: sans-serif;
+                font-size: 7px;
+                margin-left: 28px; /* Remove negative padding */
+            }
+
+            .KGbody #in {
+                color: steelblue;
+                padding-right: 0;
+                margin-left: -73%;
+            }
+
+            .KGbody a{
+               font-size: 7px;
+             }
+
+            .subhead7 .img6 img {
+                margin-top: -20%;
+                width: 100%;
+                height: auto; /* Adjust height for responsiveness */
+                object-fit: cover;
+
+            }
+
+            #head5 {
+                margin-top: -21%;
+                top: auto; /* Adjust positioning */
+                font-size: 2em; /* Adjust font size for smaller screens */
+                margin-right: 0; /* Remove unnecessary margin */
+                letter-spacing: 1px; /* Adjust letter spacing */
+            }
+
+            #quality5 {
+                font-size: 0.55rem;
+                margin-top: -14%;
+                top: auto; /* Adjust positioning */
+                margin-right: 0; /* Remove unnecessary margin */
+            }
+
+        .Categories5{
+            grid-template-columns: repeat(2,150px);
+            grid-template-rows: repeat(2,100px);
+            position: static;
+            column-gap: 5%;
+            row-gap: 15%;
+            margin-top: -60px;
+            margin-bottom: 120px;
+            margin-left: 5px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        #Categories5{
+            text-decoration: none;
+            list-style: none;
+            width: 200px;
+            height: 310px;
+            box-shadow: 0 2px 4px rgb(28, 80, 180);
+            border-radius: 25px;
+            margin-bottom: 50px;
+        }
+
+        #Categories5 .heading{
+            font-size: 9.2px;
+            color: black;
+            text-align: center;
+            padding: 15px 15px;
+        }
+
+
+        .kimg{
+            width: 100%;
+            height: 180px;
+            margin-top: -20px;
+        }
+
+
+
+}

@@ -1,0 +1,201 @@
+.scrpage{
+    height: 550px;
+    margin-top: 180px;
+}
+
+
+
+@media all and (max-width: 430px) {
+    .scrpage {
+        height: 350px;
+        margin-top: 85px;
+    }
+
+    .scrpage .drbody {
+        margin-left: -48%;
+    }
+
+    .scrpage #act {
+        font-size: 7px;
+    }
+
+    .scrpage #act1 {
+        font-size: 7px;
+    }
+
+    .scrpage .drbody #act1 {
+        color: steelblue;
+    }
+
+    .scrpage .caution {
+        margin: 3% 22%;
+        height: 5.7rem;
+        width: 100%;
+    }
+
+    .scrpage .caution:hover {
+        transform: scale(1.1);
+    }
+
+    .scrpage .cauimg {
+        width: 50px;
+        height: 45px;
+        margin-left: 5%;
+    }
+
+    .scrpage .cautext {
+        width: 80%;
+        height: auto;
+        margin-left: 5%;
+        margin-top: -2%;
+    }
+
+    .scrpage #cautext {
+        font-family: Roboto, sans-serif;
+        font-weight: 800;
+        font-size: 14px;
+    }
+
+    .scrpage #cautext1 {
+        font-size: 10px;
+        letter-spacing: 0.1px;
+          width: 300px;
+    }
+
+    .scrpage #spantex {
+        font-family: Roboto, sans-serif;
+        font-size: 11px;
+        font-weight: 400;
+        word-spacing: 1px;
+        color: #043c6c;
+        letter-spacing: 0.1px;
+    }
+
+    .scrpage #spatex {
+        font-family: Roboto, sans-serif;
+        font-weight: 800;
+        font-size: 14px;
+        word-spacing: 1px;
+        letter-spacing: 0.1px;
+        color: #043c6c;
+    }
+
+    .scrpage .groupdr {
+        display: grid;
+        grid-template-rows: 1fr;
+        row-gap: 2%;
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-right: -140px;
+    }
+
+    .scrpage #indivdr {
+        background-color: whitesmoke;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        padding: 0;
+        margin: 0;
+    }
+
+    .scrpage .maindr, .fundr, .prodr {
+        margin: 1% 0;
+    }
+
+
+    .scrpage .maindr {
+        width: 140px;
+        height: 150px;
+        margin-left: 15%;
+        margin-top: 35px;
+    }
+
+    .scrpage .fundr #mat {
+        font-size: 11px;
+    }
+
+    .scrpage .fundr {
+        margin-top: -8%;
+        gap: 1%;
+        margin-left: 35%;
+    }
+
+    .scrpage #fundr {
+        width: 45px;
+        height: 45px;
+    }
+
+    .scrpage .prodr {
+        margin-left: 10%;
+        margin-right: -100px;
+        margin-top: 18px;
+    }
+
+    .scrpage #prodr {
+        font-size: 8px;
+        line-height: 1.7;
+    }
+
+    .scrpage #availdr li {
+        margin-top: -1%;
+    }
+
+    .scrpage #availdr2 li {
+        margin-top: 3%;
+    }
+
+    .scrpage #pronadr {
+        font-size: 1rem;
+        color: #09599b;
+        font-weight: 800;
+        font-family: SansSerif, Roboto, sans-serif;
+    }
+
+    .scrpage #pronadr1 {
+        display: flex;
+        font-size: 9px;
+        color: royalblue;
+    }
+
+    .scrpage #price1 {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .scrpage #stock1, #quali1, #availn a {
+        font-size: 8px;
+    }
+
+    .scrpage #availn {
+        margin-top: 8px;
+        margin-right: -20%;
+        border-bottom: 0;
+    }
+
+    .scrpage #quala {
+        width: 50px;
+        height: 65px;
+        margin-top: -38px;
+        margin-bottom: -40px;
+        margin-left: 25px;
+    }
+
+    .scrpage .chat1 {
+        margin-top: 0;
+        margin-left: 120px;
+        margin-right: -100px;
+    }
+
+    .scrpage .QR, .scan1 {
+        margin-top: -9%;
+    }
+
+    .scrpage #scan1, .scan1 {
+        font-size: 10px;
+    }
+
+    .scrpage.QR {
+        width: 90px;
+        height: 90px;
+    }
+
+}

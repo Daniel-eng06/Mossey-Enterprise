@@ -1,0 +1,16 @@
+.mpage1{
+    height: 550px;
+    margin-top: 180px;
+}
+
+.mbody1{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    font-family: Roboto,sans-serif;
+    margin-left: -45.8%;
+}
+
+.mbody1 #act1{
+    color: steelblue;
+}

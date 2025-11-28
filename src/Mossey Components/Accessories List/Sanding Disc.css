@@ -1,0 +1,201 @@
+.sanpage{
+    height: 850px;
+    margin-top: 180px;
+}
+
+
+
+@media all and (max-width: 430px) {
+    .sanpage {
+        height: 600px;
+        margin-top: 85px;
+    }
+
+    .sanpage .drbody {
+        margin-left: -48%;
+    }
+
+    .sanpage #act {
+        font-size: 7px;
+    }
+
+    .sanpage #act1 {
+        font-size: 7px;
+    }
+
+    .sanpage .drbody #act1 {
+        color: steelblue;
+    }
+
+    .sanpage .caution {
+        margin: 3% 20%;
+        height: 5.7rem;
+        width: 100%;
+    }
+
+    .sanpage .caution:hover {
+        transform: scale(1.1);
+    }
+
+    .sanpage .cauimg {
+        width: 50px;
+        height: 45px;
+        margin-left: 5%;
+    }
+
+    .sanpage .cautext {
+        width: 80%;
+        height: auto;
+        margin-left: 5%;
+        margin-top: -2%;
+    }
+
+    .sanpage #cautext {
+        font-family: Roboto, sans-serif;
+        font-weight: 800;
+        font-size: 14px;
+    }
+
+    .sanpage #cautext1 {
+        font-size: 10px;
+        letter-spacing: 0.1px;
+          width: 300px;
+    }
+
+    .sanpage #spantex {
+        font-family: Roboto, sans-serif;
+        font-size: 11px;
+        font-weight: 400;
+        word-spacing: 1px;
+        color: #043c6c;
+        letter-spacing: 0.1px;
+    }
+
+    .sanpage #spatex {
+        font-family: Roboto, sans-serif;
+        font-weight: 800;
+        font-size: 14px;
+        word-spacing: 1px;
+        letter-spacing: 0.1px;
+        color: #043c6c;
+    }
+
+    .sanpage .groupdr {
+        display: grid;
+        grid-template-rows: 1fr;
+        row-gap: 5%;
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-right: -140px;
+    }
+
+    .sanpage #indivdr {
+        background-color: whitesmoke;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        padding: 0;
+        margin: 0;
+    }
+
+    .sanpage .maindr, .fundr, .prodr {
+        margin: 1% 0;
+    }
+
+
+    .sanpage .maindr {
+        width: 140px;
+        height: 150px;
+        margin-left: 15%;
+        margin-top: 35px;
+    }
+
+    .sanpage .fundr #mat {
+        font-size: 11px;
+    }
+
+    .sanpage .fundr {
+        margin-top: -1%;
+        gap: 1%;
+        margin-left: 35%;
+    }
+
+    .sanpage #fundr {
+        width: 45px;
+        height: 45px;
+    }
+
+    .sanpage .prodr {
+        margin-left: 10%;
+        margin-right: -100px;
+        margin-top: 18px;
+    }
+
+    .sanpage #prodr {
+        font-size: 8px;
+        line-height: 1.7;
+    }
+
+    .sanpage #availdr li {
+        margin-top: -1%;
+    }
+
+    .sanpage #availdr2 li {
+        margin-top: 3%;
+    }
+
+    .sanpage #pronadr {
+        font-size: 1rem;
+        color: #09599b;
+        font-weight: 800;
+        font-family: SansSerif, Roboto, sans-serif;
+    }
+
+    .sanpage #pronadr1 {
+        display: flex;
+        font-size: 9px;
+        color: royalblue;
+    }
+
+    .sanpage #price1 {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .sanpage #stock1, #quali1, #availn a {
+        font-size: 8px;
+    }
+
+    .sanpage #availn {
+        margin-top: 8px;
+        margin-right: -20%;
+        border-bottom: 0;
+    }
+
+    .sanpage #quala {
+        width: 50px;
+        height: 65px;
+        margin-top: -38px;
+        margin-bottom: -40px;
+        margin-left: 25px;
+    }
+
+    .sanpage .chat1 {
+        margin-top: 0;
+        margin-left: 120px;
+        margin-right: -100px;
+    }
+
+    .sanpage .QR, .scan1 {
+        margin-top: -9%;
+    }
+
+    .sanpage #scan1, .scan1 {
+        font-size: 10px;
+    }
+
+    .sanpage.QR {
+        width: 90px;
+        height: 90px;
+    }
+
+}

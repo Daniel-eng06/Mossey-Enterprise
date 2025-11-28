@@ -1,0 +1,202 @@
+.setpage{
+    height: 1620px;
+    margin-top: 180px;
+}
+
+
+
+@media all and (max-width: 430px) {
+    .setpage {
+        height: 1000px;
+        margin-top: 85px;
+    }
+
+    .setpage .drbody {
+        margin-left: -48%;
+    }
+
+    .setpage #act {
+        font-size: 7px;
+    }
+
+    .setpage #act1 {
+        font-size: 7px;
+    }
+
+    .setpage .drbody #act1 {
+        color: steelblue;
+    }
+
+    .setpage .caution {
+        margin: 3% 20%;
+        height: 5.7rem;
+        width: 100%;
+    }
+
+    .setpage .caution:hover {
+        transform: scale(1.1);
+    }
+
+    .setpage .cauimg {
+        width: 50px;
+        height: 45px;
+        margin-left: 5%;
+    }
+
+    .setpage .cautext {
+        width: 80%;
+        height: auto;
+        margin-left: 5%;
+        margin-top: -2%;
+    }
+
+    .setpage #cautext {
+        font-family: Roboto, sans-serif;
+        font-weight: 800;
+        font-size: 14px;
+    }
+
+    .setpage #cautext1 {
+        font-size: 10px;
+        letter-spacing: 0.1px;
+          width: 300px;
+    }
+
+    .setpage #spantex {
+        font-family: Roboto, sans-serif;
+        font-size: 11px;
+        font-weight: 400;
+        word-spacing: 1px;
+        color: #043c6c;
+        letter-spacing: 0.1px;
+    }
+
+    .setpage #spatex {
+        font-family: Roboto, sans-serif;
+        font-weight: 800;
+        font-size: 14px;
+        word-spacing: 1px;
+        letter-spacing: 0.1px;
+        color: #043c6c;
+    }
+
+    .setpage .groupdr {
+        display: grid;
+        grid-template-rows: 1fr;
+        row-gap: 2%;
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-right: -140px;
+    }
+
+    .setpage #indivdr {
+        background-color: whitesmoke;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        padding: 0;
+        margin: 0;
+    }
+
+    .setpage .maindr, .fundr, .prodr {
+        margin: 1% 0;
+    }
+
+
+    .setpage .maindr {
+        width: 140px;
+        height: 150px;
+        margin-left: 15%;
+        margin-top: 35px;
+    }
+
+    .setpage .fundr #mat {
+        font-size: 11px;
+    }
+
+    .setpage .fundr {
+        margin-top: -8%;
+        gap: 1%;
+        margin-left: 35%;
+    }
+
+    .setpage #fundr {
+        width: 45px;
+        height: 45px;
+    }
+
+    .setpage .prodr {
+        margin-left: 10%;
+        margin-right: -100px;
+        margin-top: 18px;
+    }
+
+    .setpage #prodr {
+        font-size: 8px;
+        line-height: 1.7;
+    }
+
+    .setpage #availdr li {
+        margin-top: -1%;
+    }
+
+    .setpage #availdr2 li {
+        margin-top: 3%;
+    }
+
+    .setpage #pronadr {
+        font-size: 1rem;
+        color: #09599b;
+        font-weight: 800;
+        font-family: SansSerif, Roboto, sans-serif;
+    }
+
+    .setpage #pronadr1 {
+        display: flex;
+        font-size: 9px;
+        color: royalblue;
+    }
+
+    .setpage #price1 {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .setpage #stock1, #quali1, #availn a {
+        font-size: 8px;
+    }
+
+    .setpage #availn {
+        margin-top: 8px;
+        margin-right: -20%;
+        border-bottom: 0;
+    }
+
+    .setpage #quala {
+        width: 50px;
+        height: 65px;
+        margin-top: -38px;
+        margin-bottom: -40px;
+        margin-left: 25px;
+    }
+
+
+    .setpage .chat1 {
+        margin-top: 0;
+        margin-left: 120px;
+        margin-right: -100px;
+    }
+
+    .setpage .QR, .scan1 {
+        margin-top: -9%;
+    }
+
+    .setpage #scan1, .scan1 {
+        font-size: 10px;
+    }
+
+    .setpage .QR {
+        width: 90px;
+        height: 90px;
+    }
+
+}

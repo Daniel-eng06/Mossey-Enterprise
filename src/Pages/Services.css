@@ -1,0 +1,236 @@
+.sbody{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: start;
+    padding-left: 3.8% ;
+}
+
+.sbody a{
+        color: black;
+         font-size: 13px;
+}
+
+.sbody #sactive ,#sin{
+    font-family: sans-serif;
+    font-size: 13px;
+    padding-left: -50px;
+}
+
+.sbody #sin{
+    color: steelblue;
+    font-size: 13px;
+}
+
+.sbody #sin{
+    padding-right:92%;
+     color: steelblue;
+}
+
+.subhead7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.img6{
+    width: 1620px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding-bottom: 2%;
+    margin-top: 1%;
+}
+
+.subhead7 .img6 img{
+    width:  100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#shead5{
+    position: absolute;
+    top: 15%;
+    font-family: sans-serif;
+    font-size: 5em;
+    text-align: center;
+    color: white;
+    text-shadow: black;
+    margin-right: 5%;
+    letter-spacing: 3px;
+}
+
+#quality5{
+    position: absolute;
+    top: 65%;
+    text-align: center;
+    color: white;
+    margin-right: 5%;
+}
+
+.service-container {
+  padding: 20px;
+  margin: 160px 0 0;
+}
+
+.vidser{
+    width: 200px;
+    height: 130px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.vidser #vidser{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.delivery-services,.service-description,.door-to-door{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.service-description, .delivery-services, .door-to-door {
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+.sernew1 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.sernew2 {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.service-description .sernew2, .delivery-services .sernew2, .door-to-door .sernew2 {
+  color: #444;
+}
+
+.service-description .sernew1, .delivery-services .sernew1, .door-to-door .sernew1 {
+  color: #043c6c;
+}
+
+.service-description .sernew2, .delivery-services .sernew2, .door-to-door .sernew2 {
+  color: #313131;
+}
+
+.service-description, .delivery-services, .door-to-door {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+@media all and (max-width: 430px) {
+           .sbody {
+                display: flex;
+                flex-direction: row; /* Adjust layout for smaller screens */
+                align-items: start;
+                padding-left: 0;
+            }
+
+            .sbody #sactive, .sbody #sin {
+                font-family: sans-serif;
+                font-size: 7px;
+                margin-left: 28px; /* Remove negative padding */
+            }
+
+            .sbody #sin {
+                color: steelblue;
+                padding-right: 0;
+                margin-left: -78%;
+            }
+               .sbody a{
+                    font-size: 7px;
+                }
+
+            .subhead7 .img6 img {
+                margin-top: -10%;
+                width: 100%;
+                height: auto; /* Adjust height for responsiveness */
+                object-fit: cover;
+            }
+
+            #shead5 {
+                margin-top: -21%;
+                top: auto; /* Adjust positioning */
+                font-size: 2em; /* Adjust font size for smaller screens */
+                margin-right: 0; /* Remove unnecessary margin */
+                letter-spacing: 1px; /* Adjust letter spacing */
+            }
+
+            #quality5 {
+                font-size: 0.55rem;
+                margin-top: -14%;
+                top: auto; /* Adjust positioning */
+                margin-right: 0; /* Remove unnecessary margin */
+            }
+
+            .service-container{
+                margin-top: 62px;
+                height: 900px;
+            }
+
+            .vidser{
+                width: 550px;
+                height: 100px;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+
+            .delivery-services,.service-description,.door-to-door{
+                display: flex;
+                justify-content: center;
+                flex-direction: row;
+            }
+
+            .service-description, .delivery-services, .door-to-door {
+                margin: -60px 5px 90px;
+            }
+
+
+            .sernew1 {
+              font-size: 14px;
+              margin-bottom: 10px;
+            }
+
+            .sernew2 {
+              font-size: 10px;
+              line-height: 1.8;
+            }
+
+            .service-description .sernew2, .delivery-services .sernew2, .door-to-door .sernew2 {
+              color: #444;
+            }
+
+            .service-description .sernew1, .delivery-services .sernew1, .door-to-door .sernew1 {
+              color: #043c6c;
+            }
+
+            .service-description .sernew2, .delivery-services .sernew2, .door-to-door .sernew2 {
+              color: #313131;
+            }
+
+            .service-description, .delivery-services, .door-to-door {
+              border: 1px solid #ccc;
+              padding: 20px;
+              border-radius: 5px;
+              background-color: #f9f9f9;
+              box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            }
+}

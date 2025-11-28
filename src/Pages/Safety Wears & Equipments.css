@@ -1,0 +1,511 @@
+.SEgoods{
+    height: 2150px;
+    position: relative;
+    margin-top: 180px;
+}
+
+.SEbody{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: start;
+    padding-left: 5%;
+}
+
+.SEbody a{
+        color: black;
+        font-size: 13px;
+}
+
+.SEbody #active ,#in{
+    font-family: sans-serif;
+    font-size: 13px;
+    padding-left: -50px;
+}
+
+.SEbody #in{
+    color: steelblue;
+     font-size: 13px;
+    padding-right:83%;
+}
+
+.subhead4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.img5{
+    width: 1620px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding-bottom: 2%;
+    margin-top: 1%;
+}
+
+.subhead4 .img5 img{
+    width:  100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#head4{
+    position: absolute;
+    top: 20%;
+    font-family: sans-serif;
+    font-size: 4em;
+    text-align: center;
+    color: white;
+    text-shadow: black;
+    margin-right: 8%;
+    letter-spacing: 3px;
+}
+
+#quality4{
+    position: absolute;
+    top: 65%;
+    text-align: center;
+    color: white;
+    margin-right: 8%;
+}
+
+.Categories4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid royalblue;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    margin: 0 80% 5% 2%;
+    height: 600px;
+    width: 270px;
+    position: sticky;
+    top: 35%;
+    gap: 5%;
+}
+
+.Categories4 {
+    font-family: sans-serif;
+}
+
+.cat {
+    color: black;
+    font-size: 22px;
+    font-weight: 500;
+
+}
+
+.shortdes4{
+    text-align: justify;
+    padding: 0 6%;
+    font-size: 15px;
+    line-height: 1.8;
+    margin: 0;
+}
+
+.selcat {
+    list-style: none;
+    padding: 0;
+    margin-bottom:0;
+    width: 200px;
+}
+
+#selcat {
+    background-color: whitesmoke;
+    text-align: left;
+    padding: 10px;
+    margin: 10px -20% 10px;
+    border-left: 5px solid royalblue;
+}
+
+#box{
+    text-decoration: none;
+    list-style: none;
+    width: 300px;
+    height: 230px;
+}
+
+#box:hover{
+    border: 2px solid royalblue;
+    border-radius: 1%;
+    transition: 0.2s all ease;
+    background-color: whitesmoke;
+}
+
+.sectionW{
+    display: grid;
+    grid-template-columns: repeat(3,300px);
+    grid-template-rows: repeat(3,200px);
+    justify-content:start;
+    flex-wrap: wrap;
+    align-items: center;
+    position: static;
+    padding-left: 350px;
+    margin-top: -48%;
+    column-gap: 4%;
+    row-gap: 5%;
+}
+
+.im1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+    height: 150px;
+}
+hr{
+    color: royalblue;
+
+}
+
+#im1{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.detail{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    position: relative;
+}
+
+#d1{
+    text-align: start;
+    font-size: 17px;
+    color: black;
+    position: absolute;
+    margin-top: 10%;
+}
+
+.im2{
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content:end;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 92%;
+}
+
+#im2{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Newsec{
+    display: flex;
+    margin: 10% 50% 10% 25%;
+    background-color:#043c6c;
+    color: white;
+    justify-content: center;
+    font-size: 30px;
+    font-family: Roboto,sans-serif;
+    font-weight: 550;
+    letter-spacing: 1px;
+}
+/*do the necessary editing to it */
+.sectionE,.sectionL{
+    display: grid;
+    grid-template-columns: repeat(3,300px);
+    grid-template-rows: repeat(3,200px);
+    justify-content:start;
+    flex-wrap: wrap;
+    align-items: center;
+    position: static;
+    padding-left: 350px;
+    margin-top: -5%;
+    column-gap: 4%;
+    row-gap: 5%;
+}
+
+.im1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+    height: 150px;
+}
+hr{
+    color: royalblue;
+}
+
+#im1{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.detail{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    position: relative;
+}
+
+#d1{
+    text-align: start;
+    font-size: 17px;
+    color: black;
+    position: absolute;
+    margin-top: 10%;
+}
+
+.im2{
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content:end;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 92%;
+}
+
+#im2{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Newsec1{
+    display: flex;
+    margin: -8% 50% 10% 25%;
+    background-color:#043c6c;
+    color: white;
+    justify-content: center;
+    font-size: 30px;
+    font-family: Roboto,sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+
+
+
+
+
+@media all and (max-width: 430px) {
+    .SEgoods {
+        position: relative;
+        margin-top: 82px;
+        height: 2230px;
+    }
+
+    .SEbody {
+        display: flex;
+        flex-direction: row; /* Adjust layout for smaller screens */
+        align-items: start;
+        padding-left: 0;
+    }
+
+    .SEbody #active, .SEbody #in {
+        font-family: sans-serif;
+        font-size: 7px;
+        margin-left: 15px; /* Remove negative padding */
+    }
+
+    .SEbody #in {
+        color: steelblue;
+        padding-right: 0;
+        margin-left: -70%;
+    }
+
+       .SEbody a{
+        font-size: 7px;
+       }
+
+    .subhead4 .img5 img {
+        margin-top: -20%;
+        width: 100%;
+        height: auto; /* Adjust height for responsiveness */
+        object-fit: cover;
+    }
+
+    #head4 {
+        margin-top: -22%;
+        top: auto; /* Adjust positioning */
+        font-size: 1.5em; /* Adjust font size for smaller screens */
+        margin-right: 0; /* Remove unnecessary margin */
+        letter-spacing: 1px; /* Adjust letter spacing */
+    }
+
+    #quality4 {
+        font-size: 0.55rem;
+        margin-top: -14%;
+        top: auto; /* Adjust positioning */
+        margin-right: 0; /* Remove unnecessary margin */
+    }
+
+    .Categories4 {
+        display: none;
+    }
+
+    .sectionW #box{
+        text-decoration: none;
+        list-style: none;
+        width: 185px;
+        height: 160px;
+        margin-top: 50px;
+     }
+
+    .sectionW #box:hover{
+        border: 1px solid royalblue;
+        border-radius: 1%;
+        transition: 0.2s all ease;
+        background-color: whitesmoke;
+     }
+
+    .sectionW {
+        grid-template-columns: repeat(2,1fr); /* Adjust grid layout for smaller screens */
+        padding-left: 20px;
+        padding-right: 10px;/* Remove unnecessary padding */
+        margin-top: -30%; /* Adjust margin-top */
+        column-gap: 3%; /* Adjust column gap */
+        row-gap: 0; /* Adjust row gap */
+    }
+
+    .sectionW #box .im1 {
+        width:50%;
+        height: 100px;
+    }
+
+    .detail {
+        flex-direction: column; /* Adjust layout for smaller screens */
+        align-items: center; /* Center align items */
+    }
+
+    .sectionW #box #d1 {
+        font-size: 11px; /* Adjust font size for smaller screens */
+        margin-top: 1%;
+        text-align: start;
+        margin-left: -10px;
+    }
+
+    .sectionW #box .im2{
+        width: 15px;
+        height: 15px;
+        margin-top: 5%;
+        margin-left: 95%;
+     }
+
+    .hr{
+        margin-top: -10px;
+    }
+
+     .sectionL #box{
+         text-decoration: none;
+        list-style: none;
+        width: 185px;
+        height: 160px;
+        margin-top: 50px;
+     }
+
+    .sectionL #box:hover{
+        border: 1px solid royalblue;
+        border-radius: 1%;
+        transition: 0.2s all ease;
+        background-color: whitesmoke;
+     }
+
+    .sectionL {
+        grid-template-columns: repeat(2,1fr); /* Adjust grid layout for smaller screens */
+        padding-left: 20px;
+        padding-right: 10px;/* Remove unnecessary padding */
+        margin-top: -30%; /* Adjust margin-top */
+        column-gap: 3%; /* Adjust column gap */
+        row-gap: 0; /* Adjust row gap */
+    }
+
+    .sectionL #box .im1 {
+        width:50%;
+        height: 100px;
+    }
+
+    .detail {
+        flex-direction: column; /* Adjust layout for smaller screens */
+        align-items: center; /* Center align items */
+    }
+
+    .sectionL #box #d1 {
+        font-size: 10px; /* Adjust font size for smaller screens */
+        margin-top: 1%;
+        text-align: start;
+        margin-left: -10px;
+    }
+
+    .sectionL #box .im2{
+        width: 15px;
+        height: 15px;
+        margin-top: 5%;
+        margin-left: 95%;
+     }
+
+       .sectionE #box{
+         text-decoration: none;
+        list-style: none;
+        width: 185px;
+        height: 160px;
+        margin-top: 50px;
+     }
+
+    .sectionE #box:hover{
+        border: 1px solid royalblue;
+        border-radius: 1%;
+        transition: 0.2s all ease;
+        background-color: whitesmoke;
+     }
+
+    .sectionE {
+        grid-template-columns: repeat(2,1fr); /* Adjust grid layout for smaller screens */
+        padding-left: 20px;
+        padding-right: 10px;/* Remove unnecessary padding */
+        margin-top: -30%; /* Adjust margin-top */
+        column-gap: 3%; /* Adjust column gap */
+        row-gap: 0; /* Adjust row gap */
+    }
+
+    .sectionE #box .im1 {
+        width:50%;
+        height: 100px;
+    }
+
+    .detail {
+        flex-direction: column; /* Adjust layout for smaller screens */
+        align-items: center; /* Center align items */
+    }
+
+    .sectionE #box #d1 {
+        font-size: 10px; /* Adjust font size for smaller screens */
+        margin-top: 1%;
+        text-align: start;
+        margin-left: -10px;
+    }
+
+    .sectionE #box .im2{
+        width: 15px;
+        height: 15px;
+        margin-top: 5%;
+        margin-left: 95%;
+     }
+
+    .Newsec{
+    margin: 10% 50% 30% 10%;
+    font-size: 18px;
+     }
+
+    .Newsec1{
+    margin: 10% 50% 35% 8%;
+    font-size: 18px;
+}
+
+
+}

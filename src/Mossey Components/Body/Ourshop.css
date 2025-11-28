@@ -1,0 +1,311 @@
+.ourshop{
+    width: 100%;
+    height: 57rem;
+    background-color: #043c6c;
+    margin-top: 5%;
+    position: relative;
+}
+
+.li{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.left {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: absolute;
+    top: 55%;
+    border: 4px solid darkgrey;
+}
+
+.left,.right:hover{
+    cursor: pointer;
+}
+
+.right{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+    position: absolute;
+    top: 55%;
+    margin-left: 98%;
+    border: 4px solid darkgrey;
+}
+
+#best{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding: 50px 0px 50px 0px;
+    font-size: 2.5rem;
+    font-weight: 800;
+    font-family: sans-serif;
+    word-spacing: -3px;
+    letter-spacing: -2px;
+}
+
+.gridshop{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    transition: transform 0.3s ease;
+}
+
+.sellers{
+    background-color: white;
+    padding: 3%;
+    display: grid;
+    grid-template-rows: repeat(5,1fr);
+    justify-content: center;
+    align-items: center;
+    width: 17rem;
+    height: 44rem;
+    margin-right: 31px;
+
+}
+
+.imful{
+    width: 15rem;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -12%;
+    margin-bottom: 5%;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.titlename{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+}
+
+.new1{
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    text-align: left;
+    margin-left: 0;
+}
+
+.new2{
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 700;
+    border-bottom: 2px solid royalblue;
+    color:  #043c6c;
+    padding-bottom: 4%;
+    margin-left: 0;
+}
+
+.new3{
+    margin:10% 5%;
+    height: 10rem;
+}
+
+.new4 ,.new5{
+    list-style: initial;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.new3a{
+    margin-left: 5%;
+   margin-top:40%;
+    margin-bottom: -5%;
+    height: 2rem;
+}
+
+.new5{
+    color: green;
+}
+
+.addcha{
+    width: 14rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: darkgrey;
+    border: 1px solid steelblue;
+    position: absolute;
+    margin-top: 620px;
+    margin-left: -15px;
+}
+
+.addcha:hover{
+    border: 2px solid royalblue;
+    color: #043c6c;
+    transition-property: background-color;
+    transform: scale(0.95);
+}
+
+.sizeimg{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 25%;
+    margin-left: 40%;
+}
+
+#sizeimg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.addcha p{
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    font-family: Roboto,sans-serif;
+    font-weight: 450;
+    margin-top: -6%;
+    margin-right: 0%;
+    margin-left: -30%;
+}
+
+.addcha p:hover{
+   color: #043c6c;
+}
+
+@media all and (max-width: 430px) {
+    .ourshop {
+        height: 580px;
+        margin: 0;
+    }
+
+    .right {
+        margin-left: 97%;
+        width: 15px;
+        height: 15px;
+        background-color: black;
+        border-radius: 50%;
+    }
+
+     .left {
+        width: 15px;
+        height: 15px;
+         background-color: black;
+        border-radius: 50%;
+    }
+
+    #best {
+        font-size: 1.2rem;
+        word-spacing: 1px;
+        letter-spacing: 0.1px;
+        padding: 5% 1%;
+        margin: 2% 0% 0%;
+    }
+
+    .gridshop {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-wrap: nowrap;
+        transition: transform 0.3s ease;
+        margin-left: 5%;
+        margin-right: 0%;
+
+    }
+
+    .sellers {
+        width: 150px;
+        height: 29rem;
+        position: relative;
+    }
+
+    .imful {
+        width: 8rem;
+        height: 7rem;
+        margin-top: -5%;
+    }
+
+    .titlename {
+        justify-content: center;
+        text-align: center;
+        padding: 0% 5%;
+    }
+
+    .new1 {
+        font-size: 11px;
+        margin-bottom: 2%;
+        margin-top: 1%;
+        text-align: center;
+        font-family: Roboto,sans-serif;
+    }
+
+    .new2 {
+        font-size: 10px; /* Adjust font size for smaller screens */
+        padding-bottom: 3%; /* Adjust padding as needed */
+         margin: 5% 5% 5% ;
+    }
+
+    .new3 {
+        margin: 5% 8%;
+
+    }
+
+    .new4,
+    .new5 {
+        font-size: 10px; /* Adjust font size for smaller screens */
+        line-height: 1.6; /* Adjust line height for smaller screens */
+    }
+
+    .new3a {
+        margin-left: 8%; /* Adjust margin as needed for smaller screens */
+        margin-top: 25%; /* Adjust margin as needed for smaller screens */
+        height: 5rem;
+    }
+
+    .new5 {
+        color: green;
+    }
+
+    .addcha {
+        width: 7.5rem; /* Adjust width for smaller screens */
+        height: 1.5rem;
+        position: absolute;
+        margin-top: 430px;
+        margin-left: 15px;
+    }
+
+    .sizeimg {
+        width: 20px; /* Adjust width for smaller screens */
+        height: 20px; /* Adjust height for smaller screens */
+        top: 5%; /* Adjust position for smaller screens */
+        margin-left: 45%; /* Adjust margin for smaller screens */
+    }
+
+    #sizeimg {
+        object-fit: cover; /* Adjust object-fit property for smaller screens */
+    }
+
+    .addcha p {
+        font-size: 11px; /* Adjust font size for smaller screens */
+        margin-top: -20%; /* Adjust margin as needed for smaller screens */
+        margin-left: -25%; /* Adjust margin as needed for smaller screens */
+    }
+
+}

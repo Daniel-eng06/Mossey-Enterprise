@@ -1,0 +1,219 @@
+.cpage6{
+    height: 580px;
+    margin-top: 180px;
+}
+
+.dbody1{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    font-family: Roboto,sans-serif;
+    margin-left: -46.5%;
+}
+
+.dbody1 #act1{
+    color: steelblue;
+}
+
+
+
+
+
+
+@media all and (max-width: 430px) {
+        .cpage6{
+            height: 390px;
+            margin-top: 85px;
+        }
+
+        .cpage6 .dbody1{
+            margin-left: -48%;
+        }
+
+        .cpage6 #act{
+            font-size: 7px;
+        }
+
+        .cpage6 #act1{
+            font-size: 7px;
+        }
+        .cpage6 .dbody1 #act1{
+            color: steelblue;
+        }
+
+        .cpage6 .caution{
+            margin: 3% 8% ;
+            height: 5.7rem;
+            width: 100%;
+        }
+
+        .cpage6 .caution:hover{
+            transform: scale(1.1);
+        }
+
+        .cpage6 .cauimg{
+            width: 50px;
+            height: 45px;
+             margin-left: 5%;
+        }
+
+        .cpage6 .cautext {
+            width: 80%;
+            height: auto;
+            margin-left: 5%;
+            margin-top: -2%;
+        }
+
+        .cpage6 #cautext{
+            font-family: Roboto,sans-serif;
+            font-weight: 800;
+            font-size: 14px;
+        }
+
+        .cpage6 #cautext1{
+            font-size: 10px;
+            letter-spacing: 0.1px;
+            width: 300px;
+        }
+
+        .cpage6 #spantex{
+            font-family: Roboto,sans-serif;
+            font-size: 11px;
+            font-weight: 400;
+            word-spacing: 1px;
+            color: #043c6c;
+            letter-spacing: 0.1px;
+        }
+
+       .cpage6 #spatex{
+            font-family: Roboto,sans-serif;
+            font-weight: 800;
+            font-size: 14px;
+            word-spacing: 1px;
+            letter-spacing: 0.1px;
+            color: #043c6c;
+        }
+
+        .cpage6 .groupdiv{
+            display:grid;
+            grid-template-rows: 1fr;
+            row-gap: 5%;
+            margin-top: 20px;
+        }
+
+        .cpage6 #individual{
+            background-color: whitesmoke;
+            display: grid;
+            grid-template-columns: repeat(5,1fr);
+            padding: 0;
+            margin: 0;
+        }
+
+        .cpage6 .mainimg ,.funimg,.prodes{
+            margin: 5% 0;
+        }
+
+        .cpage6 .subimg{
+            display: flex;
+            flex-direction: column;
+            gap: 1%;
+            margin-top: 12%;
+            margin-left: 25%;
+        }
+
+        .cpage6 #subimg{
+            width: 45px;
+            height: 45px;
+        }
+
+        .cpage6 .mainimg{
+            width: 120px;
+            height: 140px;
+            margin-left: 15%;
+        }
+
+        .cpage6 .funimg{
+            margin-top: 12%;
+            gap: 1%;
+            margin-left: 55%;
+        }
+
+        .cpage6 #funimg{
+            width: 45px;
+            height: 45px;
+        }
+
+        .cpage6 .prodes{
+            margin-left: 30%;
+            margin-right: -60%;
+        }
+
+        .cpage6 #prodes{
+            font-size: 8px;
+            line-height: 1.7;
+        }
+
+        .cpage6 #avail1 li{
+            margin-top: -1%;
+        }
+
+        .cpage6 #avail2 li{
+            margin-top: 3%;
+        }
+
+        .cpage6 #proname{
+            font-size: 1rem;
+            color: #09599b;
+            font-weight: 800;
+            font-family: SansSerif,Roboto,sans-serif;
+        }
+        .cpage6 #proname1{
+            display: flex;
+            font-size: 9px;
+            color: royalblue;
+        }
+
+        .cpage6 #price{
+            font-size: 12px;
+            font-weight: 500;
+        }
+        .cpage6 #stock, #quali, #avail a{
+            font-size: 8px;
+        }
+
+        .cpage6 #avail {
+            margin-top: 10px;
+            margin-right: -50%;
+            border-bottom: 0;
+        }
+
+        .cpage6 #qual{
+            width: 50px;
+            height: 65px;
+            margin-top: -38px;
+            margin-bottom: -40px;
+            margin-left: 25px;
+        }
+
+        .cpage6 .chat{
+            margin-top: 0;
+        }
+
+        .cpage6 .QR,.scan{
+            margin-top: -9%;
+        }
+
+        #scan, .scan{
+            font-size: 10px;
+        }
+
+        .chat{
+            margin-left: 80px;
+        }
+
+        .QR{
+            width: 90px;
+            height: 90px;
+        }
+
+}
