@@ -36,7 +36,7 @@ function Footer(){
             <div className="contact">
                 <h2 id="fh">SERVICE HOTLINE</h2><br/>
                 <p id="fp">Have any questions about our products and service?</p><br/>
-                <p id="fp"><b>Monday - Saturday:</b> 07:00 - 18:00</p><br/>
+                <p id="fp"><b>Monday - Saturday:</b> 07:00am - 18:00pm</p><br/>
                 <p className="align" onClick={handleClick}><img src={foot.ft} className="ft" /> +233243010697 </p>
                 <p className="align" onClick={handleEmailClick}><img src={foot.ft2} className="ft"/> mosseyentuk@yahoo.com</p><br/>
             </div>
@@ -52,7 +52,7 @@ function Footer(){
                 <video src={foot.ft3} controls loop={foot.ft3} autoPlay={foot.ft3}></video>
             </div>
             {/* eslint-disable-next-line no-irregular-whitespace */}
-            <p id="fp1">© 2025 Mossey Enterprise Ghana. All rights reserved.</p>
+            <div id="fp1">© {new Date().getFullYear()} Mossey Enterprise Ghana. All rights reserved.</div>
         </div>
     )
 }
