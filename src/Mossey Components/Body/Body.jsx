@@ -46,7 +46,7 @@ function Body(){
                 <Link to="/About" id="discover">Discover more</Link>
                 <br/><br/><br/><br/><br/><br/><br/>
                 <div className="auths">
-                    <p className = "author">Authorized Dealer for 30 years</p>
+                    <p className = "author">Authorized Dealer for 32 years</p>
                 </div>
             </div>
             <div className="hero-slider">
